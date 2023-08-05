@@ -1,2 +1,1 @@
-vm_list=`az vm list`
-echo $vm_list
+echo '{"id": "hello"}' | jq -c > $AZ_SCRIPTS_OUTPUT_PATH
